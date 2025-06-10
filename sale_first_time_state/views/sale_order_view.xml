@@ -11,7 +11,7 @@
             <field name="show_first_sale_column" invisible="True" />
             </xpath>
             <xpath
-                expr="//field[@name='order_line']/tree//field[@name='product_template_id']"
+                expr="//field[@name='order_line']/tree//field[@name='product_id']"
                 position="before"
             >
                 <field
